@@ -15,8 +15,8 @@ public class InteractionPrompt : MonoBehaviour
     }
 
     public void InstantiatePrefab(){
-        for (int i, i < _interactionList.Count(), i++) {
-            
+        for (int i = 0; i < _interactionList.Count; i++) {
+            //TODO
         }
     }
 }
