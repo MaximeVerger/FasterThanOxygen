@@ -5,10 +5,14 @@ using UnityEngine;
 public class InteractableObject : MonoBehaviour
 {
     [SerializeField] string _name;
-    //[SerializeField] canvas _interactionPrompt;
+    [SerializeField] Canvas _interactionPrompt;
 
     private void openPrompt()
     {
-        //TODO
+        _interactionPrompt.enabled = true;
+    }
+    private void closePrompt()
+    {
+         _interactionPrompt.enabled = false;
     }
 }
