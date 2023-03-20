@@ -15,7 +15,7 @@ public class mapController : MonoBehaviour
 
         System.Random rnd = new System.Random();
 
-        int alea = rnd.Next(2);
+        int alea = rnd.Next(3);
 
         ship = listPrefabsShip[alea];
 

@@ -170,6 +170,7 @@ MonoBehaviour:
   listPrefabsShip:
   - {fileID: 2769664948530799081, guid: a438846b536481e48bf2d9a5e34cbd9e, type: 3}
   - {fileID: 1851225129980889082, guid: 8d6f69b0b881c924f8cd2e76e88c72d6, type: 3}
+  - {fileID: 4279060344783474674, guid: e826321068929f34ea117eaf61f0a426, type: 3}
   map: {fileID: 1543190473}
 --- !u!1 &955199579
 GameObject:

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 502276081838430760}
   - component: {fileID: 6388396209880752599}
+  - component: {fileID: 9164490970510984228}
   m_Layer: 0
   m_Name: Room (1)
   m_TagString: Room
@@ -90,6 +91,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &9164490970510984228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33400433871766783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f9da03ea403dc49a1eef41ee1861af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1
+  name: 
+  typeId: 1
+  param: []
 --- !u!1 &560163219576489941
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,7 +824,7 @@ RectTransform:
   m_GameObject: {fileID: 1851225129980889082}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8890272906145141936}
@@ -865,6 +882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2502111334474914699}
   - component: {fileID: 5448248627613486803}
+  - component: {fileID: 4569029711910746406}
   m_Layer: 0
   m_Name: Room (4)
   m_TagString: Room
@@ -945,6 +963,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4569029711910746406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893155359107377370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f9da03ea403dc49a1eef41ee1861af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 4
+  name: 
+  typeId: 5
+  param: []
 --- !u!1 &1963647646853056877
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,6 +989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5868105158478069159}
   - component: {fileID: 781596353867945897}
+  - component: {fileID: 1748315218828606705}
   m_Layer: 0
   m_Name: Room (6)
   m_TagString: Room
@@ -1035,6 +1070,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1748315218828606705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963647646853056877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f9da03ea403dc49a1eef41ee1861af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 6
+  name: 
+  typeId: 1
+  param: []
 --- !u!1 &2156750349253748395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,6 +1096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5478347189369673506}
   - component: {fileID: 3254563228950376051}
+  - component: {fileID: 2201748926616203369}
   m_Layer: 0
   m_Name: Room (7)
   m_TagString: Room
@@ -1125,6 +1177,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2201748926616203369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2156750349253748395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f9da03ea403dc49a1eef41ee1861af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 7
+  name: 
+  typeId: 4
+  param: []
 --- !u!1 &2914091222762045249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,6 +1608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2618093098913161294}
   - component: {fileID: 1795531584127768993}
+  - component: {fileID: 3035809998618161934}
   m_Layer: 0
   m_Name: Room (5)
   m_TagString: Room
@@ -1620,6 +1689,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3035809998618161934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746653846574363441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f9da03ea403dc49a1eef41ee1861af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 5
+  name: 
+  typeId: 2
+  param: []
 --- !u!1 &4284307056541919671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,6 +1934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6008064780506056132}
   - component: {fileID: 7567518975381291953}
+  - component: {fileID: 8088459678758997811}
   m_Layer: 0
   m_Name: Room (8)
   m_TagString: Room
@@ -1929,6 +2015,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8088459678758997811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4668994210447648679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f9da03ea403dc49a1eef41ee1861af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 8
+  name: 
+  typeId: 6
+  param: []
 --- !u!1 &4749753702346550673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,6 +2041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 600354498657501836}
   - component: {fileID: 4767103899477168268}
+  - component: {fileID: 71293429454657378}
   m_Layer: 0
   m_Name: Room
   m_TagString: Room
@@ -2019,6 +2122,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &71293429454657378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4749753702346550673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f9da03ea403dc49a1eef41ee1861af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  name: 
+  typeId: 0
+  param: []
 --- !u!1 &6029862675197222391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2113,6 +2232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7111036769584338088}
   - component: {fileID: 8791192482315978892}
+  - component: {fileID: 1463365089378451955}
   m_Layer: 0
   m_Name: Room (3)
   m_TagString: Room
@@ -2193,6 +2313,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1463365089378451955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6464636746156525624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f9da03ea403dc49a1eef41ee1861af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  name: 
+  typeId: 3
+  param: []
 --- !u!1 &6961389149021389377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2783,6 +2919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1098259682988877741}
   - component: {fileID: 1013743132335609101}
+  - component: {fileID: 3514412526795043867}
   m_Layer: 0
   m_Name: Room (2)
   m_TagString: Room
@@ -2863,6 +3000,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3514412526795043867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7944458013125141015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f9da03ea403dc49a1eef41ee1861af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
+  name: 
+  typeId: 1
+  param: []
 --- !u!1 &8274990834376823225
 GameObject:
   m_ObjectHideFlags: 0
