@@ -60,57 +60,56 @@ public class room : MonoBehaviour
     public void updateRoomEvents()
     {
         System.Random rnd = new System.Random();
-
         int aleaNbEvent = rnd.Next(3);
-
-        if (aleaNbEvent == 0) return;
 
         if (typeId == 1)
         {
-            
-            /*for (int i = 0; i < aleaNbEvent; i++)
+            List<string> tempListEvents = new List<string> { "Drone", "Panne", "Innondation", "Electricite" };
+            for (int i = 0; i < aleaNbEvent; i++)
             {
-
+                int aleaEvent = rnd.Next(tempListEvents.Count);
+                events.Add(tempListEvents[aleaEvent]);
+                tempListEvents.RemoveAt(aleaEvent);
             }
-            int aleaId = rnd.Next(ListNameOfEvents.Count);*/
-            events.Add("Drone");
-            events.Add("Panne");
-            events.Add("Innondation");
-            events.Add("Electricite");
-            //objects.Add();
+
+            int aleaObject = rnd.Next(ListNameOfObjects.Count);
+            objects.Add(ListNameOfObjects[aleaObject]);
         }
         else if (typeId == 2)
         {
-            events.Add("Innondation");
-            events.Add("Electricite");
+            int aleaEvent = rnd.Next(0, 2);
+            events.Add(ListNameOfEvents[aleaEvent]);
+
+            objects.Add(ListNameOfObjects[2]);
         }
         else if (typeId == 3)
         {
-            events.Add("Innondation");
-            events.Add("Panne");
+            int aleaEvent = rnd.Next(0, 2);
+            events.Add(ListNameOfEvents[aleaEvent]);
+
+            objects.Add(ListNameOfObjects[1]);
         }
         else if (typeId == 4)
         {
-            events.Add("Drone");
-            events.Add("Panne");
+            int aleaEvent = rnd.Next(2, 4);
+            events.Add(ListNameOfEvents[aleaEvent]);
+
+            objects.Add(ListNameOfObjects[0]);
         }
         else if (typeId == 5)
         {
-            events.Add("Panne");
+            int aleaEvent = rnd.Next(2, 4);
+            events.Add(ListNameOfEvents[aleaEvent]);
+
+            objects.Add(ListNameOfObjects[0]);
         }
         else if (typeId == 6)
         {
-            events.Add("Drone");
-            events.Add("Panne");
+            events.Add("No events");
         }
         else
         {
             events.Add("No events");
         }
-
-        /*foreach (var x in param)
-        {
-            Debug.Log(x.ToString());
-        }*/
     }
 }
